@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Créer votre compte</title>
+  <link rel="stylesheet" type="text/css" href="inscription.css" />
+  <link rel="icon" href="img/favicon.ico" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list nav-list-larger ">
+                <a href="file:///Users/killian/Desktop/leboncoin/index.html" class="nav-logo"
+                    aria-hidden="true"></a>
+                <a href="file:///Users/killian/Desktop/tp3/index3.html" class="nav-link-signup nav-link">Déposer une annonce</a>
+                <a href="" class="nav-link">Rechercher</a>
+                <a href="" class="nav-link">Mes recherches</a>
+                <a href="" class="nav-link">Favoris</a>
+                <!-- <a href="" class="nav-link">Messages</a>
+                    <a href="" class="nav-link">Se connecter</a>-->
+                <a href="file:///Users/killian/Desktop/leboncoin/inscription.html" class="nav-link">Inscription</a>
+
+                <nav>
+    </div>
+    </nav>
+    </ul>
+    </nav>
+    </div>
+</header>
+
+<div class="backsign">
+  <div class="divform">
+    <div class="imgform"></div>
+    <h1 class="textmain">Bonjour !</h1>
+    <h1 class="textsous">Inscrivez-vous pour découvrir toutes nos fonctionnalités.</h1>
+    <form action="" method="POST">
+      <label class="text-form-input" for="user_name">Prénom :</label>
+      <input id="user_name" autocomplete="off" class="forminput" type="text" name="user_name" required />
+      <label class="text-form-input" aria-required="true" for="user_nom">Nom :</label>
+      <input id="user_nom" class="forminput"  autocomplete="off" type="text" name="user_nom" required/>
+      <label class="text-form-input" for="user_age">Âge :</label>
+      <input id="user_age" step="1" min="18" max="99" type="number" class="forminput forminput-age" name="user_age" required />
+      <button type="submit" class="formbutton">S'inscrire</button>
+      <div class="ssa_box">
+        <input type="hidden" name="action" value="submit_agreement">
+        <input type="checkbox" class="tcheckbox" required>
+        <div class="textcheckbox">En créant mon compte je reconnais avoir lu et accepté les Conditions Générales de Vente et les Conditions Générales d‘Utilisation, et je confirme être âgé d’au moins 18 ans.</div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+
+</body>
+
+</html>
